@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<title>ARTHROPODS STORE</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="slider.css">
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="js/bjqs-1.3.min.js"></script>
+<style>
+    body {
+        background: rgb(180, 202, 101);
+    }
+    </style>
+</head>
+<body>
+<div id="container">
+
+<marquee behavior="alternate">
+<font face="Comic Sans" size="6" color="red">
+<h2><center>A R T H R O P O D S &nbsp &nbsp &nbsp S T O R E</center></h2>
+</marquee>
+</font>
+<center>
+<img src="log.png" alt="">
+<center>
+<font face="Comic Sans" size="6" color="red"><i>
+<h3>"Name It We Have It"</h3></i></font>
+
+<div id="banner-fade">
+<center>
+<img src="pad.jfif" width="200" height="200" title=" Yellow Pad - Price Php 25">
+<img src="pen.webp" width="200" height="200" title=" Ballpen - Price Php 15">
+<img src="bond.jpg" width="200" height="200" title="Bond Paper  Price php per piece 2 | 20 sheets = Php 30">
+<img src="color.jpg" width="200" height="200" title=" Color Paper - Price Php per piece 3 | 260">
+<img src="folder.jfif" width="200" height="200" title="White Folder - Price Php 25">
+<img src="tissue.jpg" width="200" height="200" title="Tissue - Price Php 25">
+<p>
+<br>
+<br>
+    <img src="pencil.jfif" width="200" height="200" title="Pencil - Price Php 10">
+    <img src="marker.jfif" width="200" height="200" title="Black Marker - Price Php 25">
+    <img src="brown.jfif" width="200" height="200" title="Brown Envelope - Price Php 10">
+    <img src="tape.jfif" width="200" height="200" title="Correction Tape - Price Php 35">
+    <img src="water.jfif" width="200" height="200" title="Nature Spring Water 50ml - Price Php 15 | 500ml = Php 20">
+    <img src="cook.jfif" width="200" height="200" title="Brownie Bites - Price Php 5">
+</center>
+
+<script class="secret-source"> jQuery(document).ready(function($) {
+$('#banner-fade').bjqs({
+height :320,
+width :620,
+responsive :true
+}); });
+</script>
+</div>
+
+<h1><center><font face="Verdana" size="2" color="#666666">______________________________________________________________________________________</center></h1>
+<p>
+<p>
+<center><A HREF="topic1.html">Yellow Pad</A> | <A HREF="topic2.html">Ballpen</A> | <A HREF="topic3.html">BondPaper</A> | <A HREF="topic4.html">Color Paper</A> | <A HREF="topic5.html">White Folder</A> | <A HREF="topic6.html"> Tissue</A></center>
+<center><A HREF="topic1.html">Pencil</A> | <A HREF="topic2.html">Black Marker</A> | <A HREF="topic3.html">Brown Envelop</A> | <A HREF="topic4.html">Correction Tape</A> | <A HREF="topic5.html">Nature Spring Water </A> | <A HREF="topic6.html">Brownie Bites</A></center>
+<p>
+<p>
+<center>
+<font face="Comic Sans" size="4" color="red">1340 Candida St. Cor Abad Santos Tondo, Manila | Contact # 09324976129
+<font face="Verdana" size="2" color="#666666">
+<p>
+Copyright©2023 All rights reserved.
+</font>
+</center>
+<ul>
+</body>
+</html>
+
+<!-- ******** slide *********** -->
+
+<SCRIPT LANGUAGE="JavaScript">
+
+var num=1
+img1 = new Image ()
+img1.src = "pad.jfif"
+img2 = new Image ()
+img2.src = "pen.webp"
+img3 = new Image ()
+img3.src = "bond.jpg"
+img4 = new Image ()
+img4.src = "color.jpg"
+img5 = new Image ()
+img5.src = "folder.jfif"
+img6 = new Image ()
+img6.src = "tissue.jpg"
+img7 = new Image ()
+img7.src = "pencil.jfif"
+img8 = new Image ()
+img8.src = "marker.jfif"
+img9 = new Image ()
+img9.src = "brown.jfif"
+img10 = new Image ()
+img10.src = "tape.jfif"
+img11 = new Image ()
+img11.src = "water.jfif"
+img12 = new Image ()
+img12.src = "cook.jfif"
+
+text1 = "Yellow Pad"
+text2 = "Ballpen"
+text3 = "Bond Paper"
+text4 = "Color Paper"
+text5 - "White Folder"
+text6 = "Tissue"
+text7 = "Pencil"
+text8 = "Black Marker"
+text9 = "Brown Envelope"
+text10 = "Correction Tape"
+text11 = "Nature Spring Water"
+text12 = "Brownie Bites"
+
+function slideshowUp()
+{
+num=num+1
+if (num==13)
+{num=1}
+document.mypic.src=eval("img"+num+".src")
+document.joe.burns.value=eval("text"+num)
+}
+
+function slideshowBack()
+{
+num=num-1
+if (num==0)
+{num=12}
+document.mypic.src=eval("img"+num+".src")
+document.joe.burns.value=eval("text"+num)
+}
+
+</SCRIPT>
+
+<!-- The Image and Form Codes are Below -->
+
+<CENTER>
+<IMG SRC="pad.jfif" NAME="mypic" BORDER=0 HEIGHT="300" WIDTH="300">
+<p>
+
+
+<A HREF="JavaScript:slideshowBack()"> Back</A>
+
+<A HREF="JavaScript:slideshowUp()"> Next</A>
